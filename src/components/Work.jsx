@@ -2,6 +2,7 @@ import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
 import realEstate from "../assets/realestate.jpg";
 import Netflix from "../assets/netflix.png";
+import Tinder from "../assets/tinder.png";
 
 const Work = () => {
   return (
@@ -41,21 +42,21 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${Tinder})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Tinder Clone
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://tinder-clone-7f58b.web.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/OneS18/Tinder-Clone">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

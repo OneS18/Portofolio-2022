@@ -4,6 +4,8 @@ import realEstate from "../assets/realestate.jpg";
 import Netflix from "../assets/netflix.png";
 import Tinder from "../assets/tinder.png";
 import ContactMgr from "../assets/mgr-project.png";
+import Crypto from "../assets/crypto-search.png";
+import Calculator from "../assets/calculator.png";
 
 const Work = () => {
   return (
@@ -43,6 +45,52 @@ const Work = () => {
             </div>
           </div>
           <div
+            style={{ backgroundImage: `url(${Crypto})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Crypto Search
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://crypto-search-2022.herokuapp.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/OneS18/crypto-search">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${ContactMgr})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Contact Manager
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://contact-mgr.vercel.app/contacts/admin">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/OneS18/Angular-contact-mgr">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
             style={{ backgroundImage: `url(${Tinder})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
@@ -67,21 +115,21 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${ContactMgr})` }}
+            style={{ backgroundImage: `url(${Calculator})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Contact Manager
+                Calculator
               </span>
               <div className="pt-8 text-center">
-                <a href="https://contact-mgr.vercel.app/contacts/admin">
+                <a href="https://dazzling-mooncake-ebbf1e.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/OneS18/Angular-contact-mgr">
+                <a href="https://github.com/OneS18/Calculator">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
